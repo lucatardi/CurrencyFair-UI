@@ -1,0 +1,178 @@
+/* FlexBox short-cuts utilities */
+
+.fxRow {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.fxColumn {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.fxSb {
+  justify-content: space-between;
+}
+
+
+/* General Layout Style */
+
+.left-part {
+  width: 45%;
+  height: 100vh;
+  padding-right: 50px;
+  border-right: 1px solid lightgray;
+  padding-left: 15%;
+}
+
+.right-part {
+  width: 40%;
+  height: 100vh;
+  padding-left: 50px;
+  padding-top: 50px;
+  background: rgb(250,250,250);
+}
+
+button {
+  background: rgb(95,179,223);
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(95,179,223);
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 75px;
+  padding: 0 10%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.shape {
+  padding: 5px 10px;
+  background-color: rgb(253,253,253);
+  border: 1px solid lightgray;
+  border-radius: 100px 2px 2px 100px; 
+  color: darkgray;
+  width: 80px;
+  height: 40px;
+}
+
+.flag-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+#eur {
+  background: url("./img/european_union.png");
+  background-size: 100%;
+}
+
+#gbp {
+  background: url("./img/united_kingdom.png");
+  background-size: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.App-stepper > * {
+  padding: 10px 20px;
+  border-bottom: 5px solid rgb(217, 242, 250);
+  border-radius: 1px;
+  flex: 1;
+  color: lightgray;
+  line-height: 0.8;
+}
+
+.selected {
+  border-color:rgb(95,179,223);
+  color: rgb(95,179,223);
+}
+
+.App-preview {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 22%;
+  background: white;
+  position: fixed;
+}
+
+.App-preview > * {  /* selecting all the divs child of App-preview div */
+  padding: 0 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+#second-link {
+  margin-left: 20px;
+}
+
+.subtitle-container {
+  background: rgb(250,250,250);
+}
+
+.App-sending,
+.App-receiving {
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+}
+
+.App-sending {
+  background: rgb(250,253,254);
+  border-color: rgb(95,179,223);
+}
+
+.amount {
+  color: rgb(255, 200, 100);
+  text-align: center;
+}
+
+.smaller {
+  font-size: smaller;
+}
+
+.gray-text {
+  color: lightgrey;
+}
+
+.dark-gray-text {
+  color: darkgrey;
+}
+
+.footer {
+  border-top: 1px solid lightgray;
+  margin-top: 30px;
+}
+
+h3 {
+  margin: 50px 0 0;
+}
+
+.margin {
+  margin: 15px 0 50px;
+}
